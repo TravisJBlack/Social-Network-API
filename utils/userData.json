@@ -1,21 +1,22 @@
 [
     {
-        "username": "Travis",
-        "email": "travis@gmail.com"
+        "username": "Fred",
+        "email": "fred@gmail.com"
     },
     {
-        "username": "Maddie",
-        "email": "maddie@gmail.com"
+        "username": "Paul",
+        "email": "paul@gmail.com"
     },
     {
-        "username": "Bill",
-        "email": "bill@gmail.com"
+        "username": "William",
+        "email": "william@gmail.com"
     },
     {
-        "username": "Bob",
-        "email": "bob@gmail.com"
-    },{
-        "username": "Ted",
-        "email": "ted@gmail.com"
+        "username": "Sophia",
+        "email": "sophia@gmail.com"
+    },
+    {
+        "username": "Brandon",
+        "email": "brandon@gmail.com"
     }
 ]
