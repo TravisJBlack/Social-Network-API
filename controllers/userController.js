@@ -16,6 +16,10 @@ module.exports = {
     async getOneUser(req, res) {
         try {
             const oneUser = await User.findOne({ _id: req.params.userId })
+                .select('-__v')
+                .populate('thoughts')
+                .populate('friends')
+                
 
 
             if (!oneUser) {
@@ -24,6 +28,7 @@ module.exports = {
 
             res.status(200).json(oneUser);
         } catch (err) {
+            console.log(err);
             res.status(500).json(err);
         }
     },
